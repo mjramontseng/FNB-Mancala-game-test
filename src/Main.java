@@ -8,7 +8,7 @@ public class MancalaGame {
         // Initialize the Mancala board
         int[] board = {4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 0}; // Mancala board with 14 pits
 
-        int currentPlayer = 1; // Player 1 starts
+        int currentPlayer = 1;  // Player 1 starts
 
         while (true) {
             displayBoard(board); // Display the current board state
